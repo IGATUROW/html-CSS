@@ -1,0 +1,23 @@
+.container {
+	display: flex;
+}
+
+.box {
+	flex: 1;
+	margin: 5px;
+	box-sizing: border-box;
+}
+
+.blue-background {
+	background-color: #66b3ff;
+	color: black;
+	border: 1px solid #66b3ff;
+	flex-basis: calc(33.333% - 20px);
+}
+
+.red-background {
+	background-color: red;
+	color: black;
+	border: 1px solid red;
+	flex-basis: calc(100% - 20px);
+}

@@ -1,0 +1,33 @@
+.container {
+	display: flex;
+}
+
+.box {
+	flex: 1;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.yellow-background {
+	background-color: #ffd700;
+	color: black;
+	border: 1px solid #ffd700;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	flex-basis: calc(100% - 20px);
+}
+
+.red-background {
+	background-color: red;
+	color: black;
+	border: 1px solid black;
+	flex-basis: calc(100% - 20px);
+}
+
+.blue-background {
+	background-color: #66b3ff;
+	color: black;
+	border: 1px solid #66b3ff;
+	margin: 50px;
+	
+}

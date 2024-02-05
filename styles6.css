@@ -1,0 +1,44 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.calendar {
+	margin: 20px;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+caption {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+th, td {
+	border: 1px solid #ddd;
+	padding: 40px;
+	text-align: center;
+	width: 100px;
+	
+}
+
+th {
+	background-color: #f2f2f2;
+}
+
+.special-day {
+	background-color: #ffcccb; 
+	font-weight: bold;
+}
+.saturday {
+	background-color: #add8e6;
+	font-weight: bold;
+}
+.sunday {
+	background-color: #6495ED;
+	font-weight: bold;
+}
